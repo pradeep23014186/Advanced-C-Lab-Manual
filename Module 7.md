@@ -1,10 +1,10 @@
-## EXP NO 1A : C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
+# EXP NO 1A : C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
 
 
-# Aim:
+## Aim:
 To write a C program to find the biggest among three numbers using structure.
 
-Algorithm:
+## Algorithm:
 1.	Declare structure eligible with age (integer) and n (character array)
 2.	Declare variable e of type eligible
 3.	Input age and name using scanf, store in e
@@ -15,9 +15,8 @@ Else
 5.	Print details (e.age, e.n)
 6.	Return 0
  
-# Program:
-```
-~~~
+## Program:
+```c
 #include<stdio.h> 
 struct eligib
 {
@@ -36,25 +35,25 @@ printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
 
 }
 }
-~~~
 
 ```
-# Output:
+## Output:
 
-![image](https://github.com/user-attachments/assets/bf9ea905-a03d-4a8c-90ad-61284ff8f4f3)
+![image](https://github.com/user-attachments/assets/e682b219-2dd3-434c-9723-df811bcf2024)
 
 
 
-# Result:
+
+## Result:
 Thus, the program is verified successfully. 
 
 
-## EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
+# EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
 
-# Aim:
+## Aim:
 To write a C program for passing structure as function and returning a structure from a function
 
-# Algorithm:
+## Algorithm:
 1.	Define structure numbers with members a and b.
 2.	Declare variable n of type numbers.
 3.	Prompt the user to enter values for a and b.
@@ -63,8 +62,8 @@ To write a C program for passing structure as function and returning a structure
 6.	Print the result returned by the add function.
 7.	Return 0
  
-# Program:
-~~~
+## Program:
+```c
 #include<stdio.h> 
 struct numbers
 {
@@ -79,27 +78,28 @@ int add(struct numbers n)
 {
 return n.a+n.b;
 }
-~~~
-# Output:
+```
+## Output:
 
 
-![image](https://github.com/user-attachments/assets/f599210a-0d1b-420d-81a7-97c7f2c84785)
+![image](https://github.com/user-attachments/assets/576a1829-ee8d-43a5-8b69-71eb5ef8078b)
 
 
 
 
 
-# Result:
+
+## Result:
 Thus, the program is verified successfully
 
 
  
-## EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
+# EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
 
 Aim:
 To write a C program to read a file name from user
 
-# Algorithm:
+## Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -116,8 +116,8 @@ Use scanf to input the file name into the name array.
 4.	End the main function.
 5.	Return 0 to indicate successful program execution.
  
-# Program:
-```
+## Program:
+```c
 #include <stdio.h>
 int main()
 {
@@ -143,12 +143,9 @@ int main()
 
 
 
-# Output:
+## Output:
 
-
-![image](https://github.com/user-attachments/assets/df5e1496-5f84-4ed7-b51d-c915165494a3)
-
-
+![image](https://github.com/user-attachments/assets/23a055ea-d798-40f0-a8dc-aba0f1bcc61c)
 
 
 
@@ -159,16 +156,21 @@ int main()
 
 
 
-# Result:
+
+
+
+
+
+## Result:
 Thus, the program is verified successfully
  
 
 
-## EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
+# EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
 
-# Aim:
+## Aim:
 To write a C program to read, a file and insert text in that file
-# Algorithm:
+## Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -185,8 +187,8 @@ Use scanf to input the file name into the name array and the number of strings i
 4.	End the main function.
 5.	Return 0 to indicate successful program execution.
  
-# Program:
-```
+## Program:
+```c
 #include <stdio.h>
 int main()
 {
@@ -216,7 +218,7 @@ int main()
 
 
 
-# Output:
+## Output:
 
 
 ![image](https://github.com/user-attachments/assets/5977f435-552f-479a-b5dd-71d6b34461f9)
@@ -227,7 +229,7 @@ int main()
 
 
 
-# Result:
+## Result:
 Thus, the program is verified successfully
 
 
@@ -264,8 +266,8 @@ Algorithm:
 
 13.End the program by returning 0.
 
-# Program:
-
+## Program:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 struct Subject
@@ -297,19 +299,20 @@ int main()
     return 0;
 }
 
+```
+
+
+## Output:
+
+
+![image](https://github.com/user-attachments/assets/6f95310c-5e92-4775-b97c-e02b9b036a23)
 
 
 
-# Output:
-
-
-![image](https://github.com/user-attachments/assets/ebe7c22e-32f0-4b12-a375-ee7ab13c039d)
 
 
 
 
 
-
-
-# Result:
+## Result:
 Thus, the program is verified successfully
