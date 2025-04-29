@@ -71,7 +71,8 @@ void push (char data)
 ```
 ## Output:
 
-![image](https://github.com/user-attachments/assets/09a0b4fb-9e71-42c1-b9ec-7fd3d3db04e7)
+![image](https://github.com/user-attachments/assets/f2768693-31cc-4975-85b3-025dfcc33ad2)
+
 
 
 
